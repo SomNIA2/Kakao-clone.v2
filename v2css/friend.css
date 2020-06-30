@@ -10,8 +10,9 @@
 .friend__avatar.g-avatar {
   width: 70px;
 }
-.friend__avatar.m-avatar {
+.m-avatar {
   width: 60px;
+  border-radius: 38%;
 }
 .friend .friend__column {
   display: flex;
