@@ -1,6 +1,6 @@
 .chat-screen {
-  /* background-image: url(../../image/보라.png);
-  min-height: 100vh;*/
+  background-image: url(../../image/보라.png);
+  min-height: 100vh;
 }
 .chat__write {
   position: fixed;
@@ -60,12 +60,13 @@
 
 .message {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 50%;
+  margin-bottom: 20px;
 }
 
 .message .message__content {
-  width: 80%;
+  width: 50%;
 }
 
 .incoming-message img {
@@ -84,4 +85,18 @@
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   padding: 10px 20px;
   border-radius: 30px;
+}
+.incoming-message .message__author {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 600;
+  color: cornsilk;
+}
+
+.incoming-message .message__bubble {
+  border-bottom-left-radius: 0;
+}
+
+.sent-message .message__bubble {
+  border-bottom-right-radius: 0;
 }
