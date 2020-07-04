@@ -1,4 +1,15 @@
-.chat-screen {
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.3),
+    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+.chats-body {
+  margin-top: 100px;
   background-image: url(../../image/보라.png);
   min-height: 100vh;
 }
@@ -61,7 +72,7 @@
 .message {
   display: flex;
   align-items: flex-start;
-  width: 50%;
+  width: 60%;
   margin-bottom: 20px;
 }
 
@@ -74,7 +85,7 @@
 }
 .sent-message {
   align-self: flex-end;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .incoming-message {
   align-self: flex-start;
