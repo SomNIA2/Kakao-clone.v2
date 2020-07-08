@@ -16,6 +16,8 @@ body {
   background-color: white;
   padding: 10px 20px;
   columns: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 a {
   color: inherit;
