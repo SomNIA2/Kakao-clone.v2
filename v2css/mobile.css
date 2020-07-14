@@ -20,6 +20,8 @@
 
 @media screen and (min-width: 550px) {
   .bigScreen {
+    background-image: url("https://ifh.cc/g/IMQDwJ.jpg");
+    background-size: cover;
     display: flex;
   }
 }
