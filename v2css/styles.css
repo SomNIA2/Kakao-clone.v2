@@ -39,3 +39,15 @@ a {
 main {
   animation: fadeIn 0.5s ease-in-out;
 }
+.pics {
+  background-image: url(https://ifh.cc/g/61E2KP.png);
+
+  position: absolute;
+  background-size: cover;
+  opacity: 0.3;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

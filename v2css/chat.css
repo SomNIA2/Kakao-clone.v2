@@ -11,8 +11,6 @@
 }
 .chats-body {
   margin-top: 100px;
-  background-image: url(../../image/보라.png);
-  min-height: 100vh;
 }
 .chat__write-container {
   position: fixed;
